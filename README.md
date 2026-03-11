@@ -13,6 +13,7 @@
 
 - 协议：MIT（见 [LICENSE](LICENSE)）
 - 免责声明与使用限制：见 [docs/DISCLAIMER.md](docs/DISCLAIMER.md)
+- 本项目基于[gemini-business2api](https://github.com/Dreamy-rain/gemini-business2api)魔改而来，感谢大佬！
 
 ---
 
