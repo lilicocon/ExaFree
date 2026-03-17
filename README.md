@@ -37,6 +37,8 @@ docker pull ghcr.io/chengtx809/exafree:main
 docker run --rm -p 7860:7860 -v ./data:/app/data ghcr.io/chengtx809/exafree:main
 ```
 
+镜像支持 `linux/amd64` 与 `linux/arm64`。
+
 访问：
 
 - 管理面板：`http://localhost:7860/#/login`
