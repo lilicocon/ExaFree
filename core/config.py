@@ -183,7 +183,7 @@ class ConfigManager:
         env_path = os.getenv("CONFIG_FILE", "").strip()
         if not yaml_path:
             yaml_path = env_path
-        self.yaml_path = Path(yaml_path) if yaml_path else Path()
+        self.yaml_path = Path(yaml_path) if yaml_path else None
         self._config: Optional[AppConfig] = None
         self.load()
 
